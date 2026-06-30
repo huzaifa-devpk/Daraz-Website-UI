@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Cart – Daraz</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f5f5f5;
+}
+.header{
+    background:#ff5722;
+    padding:12px;
+    color:white;
+}
+.container{
+    width:85%;
+    margin:auto;
+}
+.cart-box{
+    background:white;
+    margin-top:20px;
+    padding:20px;
+    border-radius:6px;
+}
+.cart-item{
+    display:flex;
+    gap:20px;
+    padding:15px 0;
+    border-bottom:1px solid #ddd;
+}
+.cart-item img{
+    width:110px;
+}
+.item-info{
+    flex:1;
+}
+.price{
+    color:#ff5722;
+    font-weight:bold;
+}
+.qty{
+    margin-top:8px;
+}
+.total-box{
+    text-align:right;
+    margin-top:20px;
+}
+.btn{
+    padding:10px 18px;
+    border:none;
+    cursor:pointer;
+    font-size:15px;
+    border-radius:4px;
+    margin-left:10px;
+}
+.checkout{
+    background:#ff5722;
+    color:white;
+}
+.back{
+    background:#555;
+    color:white;
+}
+.footer{
+    margin-top:30px;
+    padding:15px;
+    text-align:center;
+    background:#fff;
+    border-top:1px solid #ddd;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <div class="container">
+    <h2>Daraz – My Cart</h2>
+  </div>
+</div>
+
+<div class="container cart-box">
+
+  <h3>🛒 Shopping Cart</h3>
+
+  <!-- ITEM 1 -->
+  <div class="cart-item">
+    <img src="buds.avif" alt="Earbuds">
+    <div class="item-info">
+      <h4>Zero® Evo Wireless Earbuds</h4>
+      <p class="price">Rs. 2,994</p>
+      <div class="qty">
+        Quantity:
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- ITEM 2 -->
+  <div class="cart-item">
+    <img src="th.jpg" alt="Smartwatch">
+    <div class="item-info">
+      <h4>Waterproof Smartwatch</h4>
+      <p class="price">Rs. 1,899</p>
+      <div class="qty">
+        Quantity:
+        <select>
+          <option>1</option>
+          <option>2</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- ITEM 3 -->
+  <div class="cart-item">
+    <img src="OIP.jpg" alt="Shoes">
+    <div class="item-info">
+      <h4>White Casual Sneakers</h4>
+      <p class="price">Rs. 1,250</p>
+      <div class="qty">
+        Quantity:
+        <select>
+          <option>1</option>
+          <option>2</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- ITEM 4 -->
+  <div class="cart-item">
+    <img src="OIP (1).jpg" alt="Shirt">
+    <div class="item-info">
+      <h4>Men’s Cotton T-Shirt</h4>
+      <p class="price">Rs. 699</p>
+      <div class="qty">
+        Quantity:
+        <select>
+          <option>1</option>
+          <option>2</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOTAL -->
+  <div class="total-box">
+    <h3>Total: Rs. 6,842</h3>
+
+    <a href="HomePage.html">
+      <button class="btn back">⬅ Back to Home</button>
+    </a>
+
+    <button class="btn checkout">Proceed to Checkout</button>
+  </div>
+
+</div>
+
+<div class="footer">
+  Help | Returns | Secure Payment
+</div>
+
+</body>
+</html>
