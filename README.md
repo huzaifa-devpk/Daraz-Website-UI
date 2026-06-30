@@ -19,4 +19,4 @@ A responsive Daraz-inspired e-commerce website built as my **3rd Semester Univer
 🔗 Live Website: (https://daraz-website-ui.netlify.app/) 
 
 ##  Repository
-🔗 GitHub: https://github.com/huzaifa-devpk/Daraz-UI
+🔗 GitHub: (https://github.com/huzaifa-devpk/Daraz-Website-UI.git)
